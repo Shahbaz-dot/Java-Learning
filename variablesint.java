@@ -1,0 +1,20 @@
+package Basicofjava;
+
+public class variablesint {
+    
+    public static void main(String[] args) {
+        int x ;
+        x = 500;
+        System.out.println(x);
+        x = 400;
+        System.out.println(x);
+        x = 45;
+        System.out.println(x);
+        System.out.println(x+1);
+
+        x = x + 5;
+        System.out.println(x);
+        x = x - 15;
+        System.out.println(x);
+    }
+}
