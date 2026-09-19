@@ -1,19 +1,21 @@
 package Conditionalstatements;
 
 import java.util.Scanner;
+public class evenodd{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        int n = sc.nextInt();
+        if(n%2==0){
+            System.out.println("Even");
+            // sc.close();
+        }
+        else{
+            System.out.println("The number you eneterd is odd");
+            sc.close();
+        }
+        
+        
 
-public class evenodd {
-   public evenodd() {
-   }
-
-   public static void main(String[] var0) {
-      Scanner var1 = new Scanner(System.in);
-      System.out.println("Enter a number : ");
-      int var2 = var1.nextInt();
-      if (var2 % 2 == 0) {
-         System.out.println("Even");
-         var1.close();
-      }
-
-   }
+    }
 }
